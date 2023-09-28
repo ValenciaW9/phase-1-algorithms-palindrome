@@ -12,6 +12,8 @@ function isPalindrome(word) {
   return word === reversed;
 }
 
+module.exports = isPalindrome;
+
 //Test Cases
 console.log(isPalindrom("madam")); // Expectomg : true
 console.log(isPalindrom("robot")); //Expecting : false 
